@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "discordpy-bot-template-with-commands-extension"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+discord-easy-commands = "^0.1.1"
+prefect-discord = "^0.0.6"
+discord-musicbot = "^0.0.3-alpha.20170604"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
